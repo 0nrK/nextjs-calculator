@@ -8,6 +8,9 @@
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build"
   },
+  "engines": {
+    "node": "16.7.0"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "mathjs": "^10.6.1",
